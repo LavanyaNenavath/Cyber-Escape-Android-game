@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cyber Escape: Digital Heist</string>
+    <string name="title_game">CYBER ESCAPE</string>
+    <string name="subtitle_game">The Digital Heist</string>
+    <string name="btn_start_game">START GAME</string>
+    <string name="btn_how_to_play">HOW TO PLAY</string>
+    <string name="btn_reset_progress">RESET PROGRESS</string>
+
+    <string name="title_select_level">SELECT LEVEL</string>
+    <string name="level1_title">LEVEL 1: PASSWORD BREACH</string>
+    <string name="level2_title">LEVEL 2: VULNERABILITY HUNT</string>
+    <string name="level3_title">LEVEL 3: STOP THE ATTACK</string>
+    <string name="status_unlocked">🔓 UNLOCKED</string>
+    <string name="status_locked">🔒 LOCKED</string>
+
+    <string name="hint1_text">Hint 1: The password has 4 digits.</string>
+    <string name="hint2_text">Hint 2: Sum of all 4 digits is 32.</string>
+    <string name="hint3_text">Hint 3: First 3 digits are equal; last is an odd prime under 7.</string>
+
+    <string name="btn_submit">SUBMIT</string>
+    <string name="btn_next_question">NEXT QUESTION</string>
+    <string name="btn_try_again">TRY AGAIN</string>
+    <string name="btn_main_menu">MAIN MENU</string>
+    <string name="btn_play_again">PLAY AGAIN</string>
+
+    <string name="game_over_title">GAME OVER</string>
+    <string name="game_over_subtitle">System Compromised! Access Denied.</string>
+    <string name="win_title">🏆 SYSTEM SECURED!</string>
+    <string name="win_subtitle">Congratulations! You successfully completed Cyber Escape.</string>
+</resources>

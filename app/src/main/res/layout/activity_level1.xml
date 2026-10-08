@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#000814">
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIME: 60"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#00E676"/>
+
+    <TextView
+        android:id="@+id/txtLives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lives: 3"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL 1 - PASSWORD BREACH"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="#00E676"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hint 1: The password has 4 digits."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hint 2: Sum of all 4 digits is 32."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hint 3: First 3 digits are equal; last is an odd prime under 7."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:hint="Enter Password"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0BEC5"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

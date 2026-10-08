@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#000814">
+
+    <TextView
+        android:id="@+id/txtTimer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIME: 60"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtQuestion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnA3"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Option A"
+        android:textColor="#000000"
+        android:backgroundTint="#00E676"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnB3"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Option B"
+        android:textColor="#000000"
+        android:backgroundTint="#00E676"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnC3"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Option C"
+        android:textColor="#000000"
+        android:backgroundTint="#00E676"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnD3"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Option D"
+        android:textColor="#000000"
+        android:backgroundTint="#00E676" />
+
+</LinearLayout>
